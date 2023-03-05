@@ -51,6 +51,7 @@ button{
     justify-content: center;
     align-items: center;
     border-radius: 40px;
+    width: max-content;
 }
 .primarybutton{
     background: #0582CA;
@@ -82,13 +83,17 @@ button:hover{
     width: 100%;
     margin-bottom: 1rem;
 }
+.aboutOhms{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 .heroHeader{
     font-family: DM Sans;
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 1rem;
 }
 .heroText{
     font-family: DM Sans;
@@ -97,5 +102,31 @@ button:hover{
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-    margin-bottom: 1rem;
+}
+
+
+/* STAT */
+.stat{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.statItem{
+    display: grid;
+    text-align: center;
+}
+.statNumber{
+    font-family: DM Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+}
+.statDetail{
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
 }

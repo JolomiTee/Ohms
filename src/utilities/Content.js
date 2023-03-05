@@ -7,5 +7,19 @@ export default [
         contact: 'Contact',
         login: 'Login',
         sign: 'Sign in',
+    },
+    {
+        customers : {
+            number : '10,000+',
+            text: 'Happy customers',
+        },
+        awards : {
+            number: '2x',
+            text: 'Award winning',
+        },
+        ratings: {
+            number : '6k +',
+            text : 'Ratings',
+        },
     }
 ]
