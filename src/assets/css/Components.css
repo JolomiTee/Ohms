@@ -1,0 +1,73 @@
+/* NAVBAR */
+nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: black; */
+    position: fixed;
+    top: 0;
+    max-height: 70px;
+    width: 100%;
+    backdrop-filter: blur(12px);
+
+}
+
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+.navigation {
+    position: absolute;
+    top: 20vh;
+    right: 1.5rem;
+    padding: 2rem;
+    text-align: right;
+    margin: 0;
+    z-index: 5;
+    box-shadow: 3px 2px 4px .3px rgb(255, 255, 255);
+    border-radius: 16px;
+    display: none;
+}
+ul{
+    font-size: 1.5rem;
+    list-style: none;
+    line-height: 2;
+}
+.nav-item.active{
+    border-bottom: 1px solid white;
+}
+.btn-group{
+    display: flex;
+    gap: 10px;
+}
+.btn-group button{
+    height: 44px;
+    padding: 1rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+.signUp{
+    background: #0582CA;
+}
+.nav-item:hover{
+    border-bottom: 1px solid;
+}
+.btn-group button:hover{
+    cursor: pointer;
+}
+.signUp:hover{
+    background: #025e94;
+}
+.logIn:hover{
+    background-color: #0582CA;
+}
+
+/* Hero */
+.hero{
+    margin-top: 70px;
+    padding: 1rem;
+}

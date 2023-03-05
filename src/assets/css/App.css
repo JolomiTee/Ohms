@@ -1,4 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
 }
+:root {
+    font-family: DM Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1rem;
+    /* color-scheme: light dark; */
+    /* background-color: #242424; use as darkmode color when available */
+}
+
+/* @media (prefers-color-scheme: light) {
+    :root {
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+}
+   */
