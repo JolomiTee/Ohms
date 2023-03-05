@@ -1,14 +1,14 @@
 /* NAVBAR */
 nav{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     /* background-color: black; */
     position: fixed;
     top: 0;
-    max-height: 70px;
     width: 100%;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(100px);
 
 }
 
@@ -42,24 +42,27 @@ ul{
     display: flex;
     gap: 10px;
 }
-.btn-group button{
+button{
     height: 44px;
-    padding: 1rem 1.2rem;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
 }
-.signUp{
+.primarybutton{
     background: #0582CA;
+    color: aliceblue;
 }
 .nav-item:hover{
     border-bottom: 1px solid;
 }
-.btn-group button:hover{
+button:hover{
     cursor: pointer;
 }
-.signUp:hover{
+.primarybutton:hover{
     background: #025e94;
 }
 .logIn:hover{
@@ -70,4 +73,29 @@ ul{
 .hero{
     margin-top: 70px;
     padding: 1rem;
+}
+.heroImgContainer{
+    max-width: 450px;
+    max-height: 550px;
+}
+.heroImage{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.heroHeader{
+    font-family: DM Sans;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.heroText{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1rem;
 }

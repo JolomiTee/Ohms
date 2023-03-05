@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Button from '../components/Button'
 const Navbar = (props) => {
   return (
       <nav>
@@ -17,7 +17,7 @@ const Navbar = (props) => {
 
           <div className='btn-group'>
             <button className='logIn'>{props.login}</button>
-            <button className='signUp'>{props.sign}</button>
+            <Button text={props.sign} className='primarybutton' />
           </div>
 
         </div>
