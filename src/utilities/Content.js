@@ -10,7 +10,7 @@ export default [
     },
     {
         customers : {
-            number : '10,000+',
+            number : '10k +',
             text: 'Happy customers',
         },
         awards : {
@@ -19,7 +19,7 @@ export default [
         },
         ratings: {
             number : '6k +',
-            text : 'Ratings',
+            text : 'High ratings',
         },
     }
 ]

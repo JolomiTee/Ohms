@@ -1,9 +1,11 @@
 import React from 'react'
 import Button from '../components/Button'
+import Logo from '../assets/images/Ohms.svg'
 const Navbar = (props) => {
+  console.log(props.logo)
   return (
       <nav>
-        <img src={`../../src/assets/images/${props.logo}`} alt="Ohms" className='logo'/>
+        <img src={Logo} alt="Ohms" className='logo'/>
 
         <button><i className="fa fa-solid fa-bars-staggered"></i></button>
 

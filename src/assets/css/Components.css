@@ -130,3 +130,24 @@ button:hover{
     font-weight: 400;
     line-height: 21px;
 }
+
+/* APARTMENTS */
+.apartments{
+    padding: 0 1rem;
+}
+.SearchContainer{
+    background: #003554;
+    border-radius: 20px;
+    padding: 1rem;
+    color: aliceblue;
+    display: grid;
+    gap: 1.5rem;
+}
+.searchheader{
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+
+}

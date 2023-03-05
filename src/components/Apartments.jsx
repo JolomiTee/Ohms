@@ -1,8 +1,11 @@
 import React from 'react'
+import Search from './Search'
 
 const Apartments = () => {
   return (
-    <div>Apartments</div>
+    <section className='apartments'>
+      <Search />
+    </section>
   )
 }
 
