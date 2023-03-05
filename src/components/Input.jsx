@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Input = () => {
+const Input = (props) => {
   return (
-    <div>
-        <img src="" alt="" />
+    <div className='inputField'>
+        <input className='input' type={props.type} placeholder={props.placeholder} />
+        <img src={props.icon} className='inputIcon' alt="Location" />
     </div>
   )
 }

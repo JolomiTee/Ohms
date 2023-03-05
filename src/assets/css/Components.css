@@ -138,7 +138,7 @@ button:hover{
 .SearchContainer{
     background: #003554;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 2rem;
     color: aliceblue;
     display: grid;
     gap: 1.5rem;
@@ -149,5 +149,20 @@ button:hover{
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
-
+    text-align: center;
+}
+.inputField{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.inputIcon{
+    transform: translateX(-20px);
+}
+.input{
+    padding: 17.5px 20px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+    width: 100%;
+    margin-right: -24px;
 }
