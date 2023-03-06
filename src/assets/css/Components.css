@@ -90,7 +90,7 @@ button:hover{
 }
 .heroHeader{
     font-family: DM Sans;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 700;
     letter-spacing: 0em;
     text-align: left;
@@ -165,4 +165,59 @@ button:hover{
     border: none;
     width: 100%;
     margin-right: -24px;
+}
+.apartmentHeader{
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1rem 0 1rem;
+
+}
+.card{
+    background: #FFFFFF;
+    border: 1px solid #003554;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    max-width: 390px;
+}
+.cardImageContainer{
+    padding: .5px;
+}
+.cardImage{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.cardDetails{
+    padding: 1rem;
+}
+.aptLocation{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.metaInfoContainer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.apartmentMeta{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.metaCta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.aptPrice{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
 }
