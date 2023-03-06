@@ -166,7 +166,7 @@ button:hover{
     width: 100%;
     margin-right: -24px;
 }
-.apartmentHeader{
+.secondaryHeader{
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0em;
@@ -179,10 +179,7 @@ button:hover{
     border: 1px solid #003554;
     border-radius: 20px;
     margin-bottom: 1rem;
-    max-width: 390px;
-}
-.cardImageContainer{
-    padding: .5px;
+    max-width: 360px;
 }
 .cardImage{
     width: 100%;
@@ -190,6 +187,8 @@ button:hover{
 }
 .cardDetails{
     padding: 1rem;
+    background: #fff !important;
+    border-radius: 20px;
 }
 .aptLocation{
     font-size: 20px;
@@ -220,4 +219,10 @@ button:hover{
     font-weight: 500;
     line-height: 31px;
     letter-spacing: 0em;
+}
+
+/* REASONS| */
+.reasons{
+    padding: 1rem;
+    background: #003554;
 }
