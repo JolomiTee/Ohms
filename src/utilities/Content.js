@@ -76,7 +76,7 @@ export default [
                         one: 'Pricing',
                         two: 'Apartment',
                         three: 'Location',
-                        four: 'Tetimonials',
+                        four: 'Testimonials',
                     },
                 ]
             },
