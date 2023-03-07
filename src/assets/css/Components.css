@@ -4,11 +4,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    /* background-color: black; */
+    background-color: rgba(255, 255, 255, 0.7);
     position: fixed;
     top: 0;
     width: 100%;
-    backdrop-filter: blur(100px);
+    z-index: 10;
+    backdrop-filter: blur(12px);
 
 }
 
@@ -225,4 +226,25 @@ button:hover{
 .reasons{
     padding: 1rem;
     background: #003554;
+}
+.checks{
+    margin-top: 1rem;
+}
+.whyCheck{
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 1.5rem;
+    margin-bottom: 1rem;
+}
+.whycheck2{
+    width: 75%;
+}
+.whycheck3{
+    width: 60%;
+}
+.checkicon{
+    max-width: 30px;
 }
