@@ -6,7 +6,7 @@ const Testimonial = () => {
     <div className='testimonial'>
       <div>
         <h4 className='secondaryHeader'>What our customers say about us</h4>
-        <a href="#">View more <i className="fa fa-solid fa-chevron-right"></i></a>
+        <a href="#" className='text-white'>View more <i className="fa fa-solid fa-chevron-right"></i></a>
       </div>
 
       <TestimonialCard />

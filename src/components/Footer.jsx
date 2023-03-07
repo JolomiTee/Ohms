@@ -7,12 +7,18 @@ const Footer = () => {
     <div className='footer'>
 
       <div className="subscribe">
-        <p>Subscribe to our Newsletter</p>
+        <p className='text-white'>Subscribe to our Newsletter</p>
         <FooterInput type='text' placeholder='johndoe@email.com' />
       </div>
 
-      <div className="footlinks">
+      <div className='footlinks text-white'>
         <FootLinks />
+      </div>
+
+      <div className='footnote text-white'>
+        <p>&copy; 2023 JolomiTee & QuakeSilver <br />
+          Made with ❤ and 🤗
+        </p>
       </div>
     </div>
   )

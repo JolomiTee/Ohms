@@ -7,10 +7,10 @@ const FAQ = () => {
         { Content[3].faqs.map((faq) => (
         <div className="faqcard">
           <div>
-            <p>{faq.question}</p>
+            <p className='text-blue question'>{faq.question}</p>
             <i className="fa fa-solid fa-chevron-up"></i>
           </div>
-            <p>{faq.answer}</p>
+            <p className='text-grey'>{faq.answer}</p>
         </div>
 
         )) }

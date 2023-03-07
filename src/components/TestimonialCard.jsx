@@ -14,17 +14,17 @@ const TestimonialCard = () => {
               <img src={`../../src/assets/images/${user.img}`} alt="" />
 
               <div className='cardMeta'>
-                <p>{user.name}</p>
-                <small>{user.country}</small>
+                <p className='text-blue'>{user.name}</p>
+                <small className='text-grey'>{user.country}</small>
               </div>
 
             </div>
             
             <div className='cardtestimonial'>
 
-              <p>{user.testimony}</p>
+              <p className='text-grey'>{user.testimony}</p>
 
-              <span className='rating'><img src={Star} alt="rating" /> {user.rating} / 5.0</span>
+              <span className='rating text-grey'><img src={Star} alt="rating" /> {user.rating} / 5.0</span>
 
             </div>
 

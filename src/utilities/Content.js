@@ -8,6 +8,7 @@ export default [
         login: 'Login',
         sign: 'Sign in',
     },
+
     {
         customers : {
             number : '10k +',
@@ -22,6 +23,7 @@ export default [
             text : 'High ratings',
         },
     },
+
     {
         testimonials: [
             {
@@ -47,6 +49,7 @@ export default [
             },
         ]
     },
+
     {
         faqs: [
             {
@@ -61,6 +64,43 @@ export default [
                 question: 'How reliable is the website checkout services?',
                 answer: 'Yes, you will have to pay upfront so we can start processing necessary things immediately'
             }
+        ]
+    },
+
+    {
+        footlinks: [
+            {
+                title: 'Property',
+                links : [
+                    {
+                        one: 'Pricing',
+                        two: 'Apartment',
+                        three: 'Location',
+                        four: 'Tetimonials',
+                    },
+                ]
+            },
+            {
+                title: 'Resources',
+                links : [
+                    {
+                        one: 'Contact',
+                        two: 'Feedback',
+                        three: 'Accessibility',
+                    },
+                ]
+            },
+            {
+                title: 'About',
+                links : [
+                    {
+                        one: 'Our company',
+                        two: 'Support',
+                        three: 'Terms of use',
+                        four: 'Privacy policy',
+                    },
+                ]
+            },
         ]
     }
 ]
