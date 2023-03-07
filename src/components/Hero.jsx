@@ -2,13 +2,14 @@ import React from 'react'
 import Button from '../components/Button'
 import Content from '../utilities/Content'
 import Stat from './Stat'
+import HeroImg from '../assets/images/heroImg.png'
 
 const Hero = () => {
   return (
     <section className='hero'>
 
       <div className="heroImgContainer">
-        <img src="../src/assets/images/heroImg.png" alt="Ohms" className='heroImage' />
+        <img src={HeroImg} alt="Ohms" className='heroImage' />
       </div>
 
       <div className='aboutOhms'>

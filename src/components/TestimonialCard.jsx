@@ -1,7 +1,7 @@
 import React from 'react'
 import Content from '../utilities/Content'
 import Star from '../assets/images/star.svg'
-
+import Face from '../../src/assets/images/person1.svg'
 const TestimonialCard = () => {
   return (
     <div className="testimonialCards">
@@ -11,7 +11,7 @@ const TestimonialCard = () => {
 
             <div className='cardHeader'>
 
-              <img src={`../../src/assets/images/${user.img}`} alt="" />
+              <img src={Face} alt="" />
 
               <div className='cardMeta'>
                 <p className='text-blue'>{user.name}</p>
