@@ -152,20 +152,30 @@ button:hover{
     letter-spacing: 0em;
     text-align: center;
 }
-.inputField{
+.inputField, .inputField2{
     display: flex;
     margin-bottom: 1rem;
 }
-.inputIcon{
+.inputIcon, .inputIcon2{
     transform: translateX(-20px);
+    display: flex;
+    align-items: center;
 }
-.input{
+.inputIcon2{
+    transform: translateX(-5px);
+
+}
+.input,.input2{
     padding: 17.5px 20px;
     background: #FFFFFF;
     border-radius: 40px;
     border: none;
     width: 100%;
     margin-right: -24px;
+}
+.input2{
+    margin-right: -122px;
+    padding: 20px 135px 20px 20px;
 }
 .secondaryHeader{
     font-size: 26px;
@@ -313,4 +323,16 @@ button:hover{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+
+/* FOOTER */
+.footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subscribe{
+    display: grid;
+    gap: 1rem;
 }
