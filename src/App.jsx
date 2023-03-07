@@ -7,6 +7,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Apartment from './components/Apartments'
 import Reasons from './components/Reasons'
+import Testimonial from './components/Testimonial'
+import FaqSection from './components/FaqSection'
 import Content from './utilities/Content'
 
 
@@ -20,7 +22,11 @@ function App() {
       {Nav}
       <Hero />
       <Apartment />
-      <Reasons />
+      <section className='reasonSection'>
+        <Reasons />
+        <Testimonial />
+      </section>
+      <FaqSection />
     </>
   )
 }
