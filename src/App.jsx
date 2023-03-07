@@ -22,7 +22,7 @@ function App() {
       {Nav}
       <Hero />
       <Apartment />
-      <section className='reasonSection'>
+      <section className='blueSection'>
         <Reasons />
         <Testimonial />
       </section>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import Content from '../utilities/Content'
+import FAQ from '../components/FAQ'
 
 const FaqSection = () => {
   return (
@@ -11,18 +11,9 @@ const FaqSection = () => {
         <Button text='Contact us' className='primarybutton' />
       </div>
 
-      <div className='faqcards'>
-        { Content[3].faqs.map((faq) => (
-        <div className="faqcard">
-          <div>
-            <p>{faq.question}</p>
-            <i className="fa fa-solid fa-chevron-up"></i>
-          </div>
-            <p>{faq.answer}</p>
-        </div>
+      <FAQ />
 
-        )) }
-      </div>
+      
     </section>
   )
 }
