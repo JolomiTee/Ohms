@@ -1,8 +1,9 @@
 import React from 'react'
 import Content from '../utilities/Content'
+import { motion } from 'framer-motion'
 
 const Stat = () => {
-  
+
   const stat = Content[1]
 
   const customers = stat.customers
@@ -11,22 +12,42 @@ const Stat = () => {
   console.log(rating)
 
   return (
-    <div className='stat'>
+    <motion.div className='stat'
+      initial={{y:1000, opacity:0}}
+      animate={{y:0, opacity: 1}}
+      transition={{delay: 1.3}}
+    >
 
-      <div className='statItem'>
-        <p className="statNumber">{customers.number}</p>
+      <motion.div className='statItem'
+                initial={{opacity:0}}
+                animate={{opacity: 1}}
+                transition={{delay: 1.6}}
+                >
+        <motion.p className="statNumber"
+        >{customers.number}</motion.p>
         <p className="statDetail">{customers.text}</p>
-      </div>
-      <div className='statItem'>
-        <p className="statNumber">{awards.number}</p>
-        <p className="statDetail">{awards.text}</p>
-      </div>
-      <div className='statItem'>
-        <p className="statNumber">{rating.number}</p>
-        <p className="statDetail">{rating.text}</p>
-      </div>
+      </motion.div>
 
-    </div>
+      <motion.div className='statItem'
+        initial={{opacity:0}}
+        animate={{opacity: 1}}
+        transition={{delay: 1.7}}
+      >
+        <motion.p className="statNumber"
+        >{awards.number}</motion.p>
+        <p className="statDetail">{awards.text}</p>
+      </motion.div>
+      <motion.div className='statItem'
+        initial={{opacity:0}}
+        animate={{opacity: 1}}
+        transition={{delay: 1.8}}
+      >
+        <motion.p className="statNumber"
+        >{rating.number}</motion.p>
+        <p className="statDetail">{rating.text}</p>
+      </motion.div>
+
+    </motion.div>
   )
 }
 

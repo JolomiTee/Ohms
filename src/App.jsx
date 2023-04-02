@@ -15,13 +15,13 @@ import Footer from './components/Footer'
 
 
 function App() {
-  const Nav = Content.map(item => {
-    return <Navbar key={Content.id} {...item} />
-  })
+  // const Nav = Content.map(item => {
+  //   return <Navbar key={item.} {...item} />
+  // })
 
   return (
     <>
-      {Nav}
+      <Navbar />
       <Hero />
       <Apartment />
       <section className='blueSection'>
