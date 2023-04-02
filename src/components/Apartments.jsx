@@ -2,6 +2,7 @@ import React from 'react'
 import Search from './Search'
 import Cards from './Cards'
 import { motion } from 'framer-motion'
+
 const container = {
   show: {
       transition: {

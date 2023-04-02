@@ -1,5 +1,5 @@
-import React from 'react'
-import Content from '../utilities/Content'
+import React from 'react';
+import Content from '../utilities/Content';
 
 const FootLinks = () => {
   return (
