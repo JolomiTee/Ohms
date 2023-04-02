@@ -46,11 +46,11 @@ const Footer = () => {
         <FootLinks />
       </motion.div>
 
-      <div className='footnote text-white'>
+      <motion.div variants={item} className='footnote text-white'>
         <p>&copy; 2023 JolomiTee & QuakeSilver <br />
-          Made with ❤ and 🤗
+          In learning it was made.
         </p>
-      </div>
+      </motion.div>
     </motion.div>
   )
 }
