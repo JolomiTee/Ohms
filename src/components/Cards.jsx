@@ -2,10 +2,21 @@ import React from 'react'
 import aptType from '../assets/images/flatDescriptionIcon.svg'
 import distance from '../assets/images/routing.svg'
 import Button from './Button'
-
+import { motion } from 'framer-motion'
+const item = {
+  hidden: {opacity: 0, y: 20},
+  show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+          ease: 'easeInOut',
+          duration: .5,
+      }
+  }
+}
 const Cards = (props) => {
   return (
-    <div className='card'>
+    <motion.div className='card' variants={item}>
 
       <div className="cardImageContainer">
 
@@ -40,7 +51,7 @@ const Cards = (props) => {
       </div>
 
 
-    </div>
+    </motion.div>
   )
 }
 

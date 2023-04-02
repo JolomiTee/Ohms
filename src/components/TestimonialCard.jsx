@@ -2,12 +2,25 @@ import React from 'react'
 import Content from '../utilities/Content'
 import Star from '../assets/images/star.svg'
 import Face from '../../src/assets/images/person1.svg'
+import { motion } from 'framer-motion'
+
+const item = {
+  hidden: {opacity: 0, y: 20},
+  show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+          ease: 'easeInOut',
+          duration: 1,
+      }
+  }
+}
 const TestimonialCard = () => {
   return (
     <div className="testimonialCards">
         { Content[2].testimonials.map((user) => (
 
-          <div className="testimonialCard">
+          <motion.div className="testimonialCard" variants={item}>
 
             <div className='cardHeader'>
 
@@ -19,7 +32,7 @@ const TestimonialCard = () => {
               </div>
 
             </div>
-            
+
             <div className='cardtestimonial'>
 
               <p className='text-grey'>{user.testimony}</p>
@@ -28,11 +41,11 @@ const TestimonialCard = () => {
 
             </div>
 
-          </div>
+          </motion.div>
 
         )) }
 
-        
+
       </div>
   )
 }
